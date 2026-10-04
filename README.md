@@ -1,11 +1,17 @@
-# Field Notes: Blog/Post Management App
+# Blog Post Application
 
+A full-stack blog post application where users can create and view blog posts.
 React (Vite) -> fetch() -> Express REST API -> MongoDB Atlas
 
-## Setup
-1. Server: `cd server && npm install`, then put your connection string in `server/.env` (`ATLAS_URI`). In Atlas, add your IP under Network Access.
-   Run with `npm start` (http://localhost:5050).
-2. App: `cd app && npm install && npm run dev` (http://localhost:5173).
+## Features
+
+- Create blog posts
+- Add title, author, and content
+- View published posts
+- React frontend
+- Node.js backend
+- Database integration
+- REST API for posts
 
 ## REST API
 | Method | Route | Purpose |
